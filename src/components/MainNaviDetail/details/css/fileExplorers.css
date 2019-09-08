@@ -1,0 +1,126 @@
+#file-explorer .pluginsContainer_1hUeL0{
+    height: calc(100% - 35px);
+    overflow: auto;
+}
+
+#file-explorer .plugins_3g7Fx2 {
+  height: 100%;
+}
+
+#file-explorer .plugItIn_3g7Fx2 > div {
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#file-explorer .container_uapQG {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#file-explorer .fileexplorer_uapQG {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  padding-left: 6px;
+  padding-top: 6px;
+}
+
+#file-explorer .fileExplorerTree_uapQG {
+  cursor: default;
+}
+
+#file-explorer .treeview_uapQG {
+  overflow-y: auto;
+}
+
+#file-explorer .ul_tv_34gCHm {
+  list-style-type: none;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+#file-explorer  .fileexplorer {
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-size: .8rem;
+}
+
+#file-explorer .li_tv_34gCHm {
+  list-style-type: none;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+  margin-left: 10px;
+}
+
+#file-explorer .label_tv_34gCHm {
+  align-items: center;
+}
+
+#file-explorer .top > div {
+
+  display: inline-block;
+}
+#file-explorer .top > span {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+#file-explorer .label {
+  font-weight: bold;
+}
+#file-explorer .file-leaf {
+  font-weight: normal;
+}
+
+#file-explorer .files {
+  list-style-type: none;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+  margin-top: 10px;
+}
+
+#file-explorer .file {
+  cursor: pointer;
+  padding: 2px;
+}
+
+#file-explorer .caret_tv_34gCHm {
+  width: 10px;
+  flex-shrink: 0;
+  visibility: hidden;
+}
+
+#file-explorer .leaf_2ArcOJ {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 90%;
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
+
+#file-explorer .bg-secondary {
+  background-color: #95a5a6 !important;
+}
+
+
+#file-explorer .menu-items {
+  margin-left: 10px;
+}
+
+#file-explorer .menu-items > .head-item{
+  margin-left: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+{
+  "name": "remix-clone",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@uiw/react-monacoeditor": "^1.0.6",
+    "browser-solc": "^1.0.0",
+    "monaco-editor-webpack-plugin": "^1.7.0",
+    "primereact": "^3.1.8",
+    "promise-fs": "^2.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-dropzone": "^10.1.7",
+    "react-monaco-editor": "^0.28.0",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "solc-js": "^1.0.0",
+    "web3": "^1.2.0"
+  },
+  "main": "public/electron.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "electron": "^5.0.8",
+    "electron-builder": "^21.1.5",
+    "electron-is-dev": "^1.1.0",
+    "electron-react-devtools": "^0.5.3",
+    "wait-on": "^3.3.0"
+  }
+}

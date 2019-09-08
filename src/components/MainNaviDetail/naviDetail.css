@@ -1,0 +1,42 @@
+
+#side-panel {
+  width: 300px;
+}
+
+#side-panel.sidepanel_3xXxXL {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  bottom: 0;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.dragbar_xVXFF {
+  position: absolute;
+  top: 0px;
+  width: 0.5em;
+  right: 0;
+  bottom: 0;
+  cursor: col-resize;
+  z-index: 999;
+  border-right: 2px solid var(--primary);
+}
+
+.swapitHeader_1hUeL0 {
+  height: 35px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.swapitTitle_1hUeL0 {
+  margin: 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.9375rem;
+}
